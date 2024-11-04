@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.util.ArrayList;
 
 
@@ -52,6 +51,22 @@ public class Product {
 
 
     ArrayList<String> Products = new ArrayList<String>();
+
+
+    public void printlist(){
+
+        System.out.println("Product Information:");
+
+        for (String Products : Products){
+
+            System.out.println(Products);
+
+        }
+    }
+
+
+
+
 }
 
 
